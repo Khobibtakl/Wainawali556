@@ -1,0 +1,6 @@
+{
+  "name": "د فن بيان لارښود",
+  "description": "د عامه ويناوالۍ، د جرأت لوړولو، د فن بيان د اصولو او د وينا د تمرين لپاره يو پښتو اپليکېشن",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
