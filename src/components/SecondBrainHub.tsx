@@ -1106,8 +1106,8 @@ export const SecondBrainHub: React.FC<SecondBrainHubProps> = ({
                       {rep.matchedKeywords.length > 0 && (
                         <div className="flex gap-2 justify-end mt-2 flex-wrap text-[9px] text-stone-500">
                           <span>ورته کلیمې:</span>
-                          {rep.matchedKeywords.map((kw: string) => (
-                            <span key={kw} className="bg-stone-100 dark:bg-neutral-800 px-1.5 py-0.5 rounded font-mono">{kw}</span>
+                          {rep.matchedKeywords.map((kw: string, kwIdx: number) => (
+                            <span key={`${kw}-${kwIdx}`} className="bg-stone-100 dark:bg-neutral-800 px-1.5 py-0.5 rounded font-mono">{kw}</span>
                           ))}
                         </div>
                       )}

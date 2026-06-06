@@ -87,7 +87,7 @@ export const BottomNav: React.FC<BottomNavProps> = ({
           {/* Branded Logo/Title header */}
           <div className="pr-2 border-r-4 border-rose-500 py-1">
             <h1 className="text-lg font-black font-sans text-stone-900 dark:text-white sepia:text-amber-950">
-              د فن بيان لارښود
+              د مسلکي وينا راز په څه کې ده
             </h1>
             <p className="text-[10px] text-stone-400 font-medium">
               د عامه خبرو د ويناوالۍ ځواک

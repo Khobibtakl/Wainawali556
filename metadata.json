@@ -1,5 +1,5 @@
 {
-  "name": "د فن بيان لارښود",
+  "name": "د مسلکي وينا راز په څه کې ده",
   "description": "د عامه ويناوالۍ، د جرأت لوړولو، د فن بيان د اصولو او د وينا د تمرين لپاره يو پښتو اپليکېشن",
   "requestFramePermissions": ["microphone"],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]

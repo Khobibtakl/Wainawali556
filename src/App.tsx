@@ -335,7 +335,7 @@ export default function App() {
       const url = URL.createObjectURL(blob);
       const link = document.createElement('a');
       link.href = url;
-      link.download = `د_فن_بیان_لارښود_بیک_اپ_${Date.now()}.json`;
+      link.download = `د_مسلکي_وينا_راز_بیک_اپ_${Date.now()}.json`;
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
@@ -644,7 +644,7 @@ export default function App() {
                   <div className={`flex flex-col sm:flex-row sm:items-end justify-between gap-2 border-b pb-2 ${activeThemeMap.border}`}>
                     <div className="text-right">
                       <h2 className="text-lg font-black font-sans">
-                        د فن بيان او عامه ويناوالۍ معلوماتي زېرمه
+                        د مسلکي وينا راز په څه کې ده
                       </h2>
                       <p className="text-[10px] text-stone-500 dark:text-stone-400">
                         دا لړۍ په ۶ مختلفه برخو وېشل شوې ده. یو کتګوري وټاکئ او لوستل یې پېل کړئ.

@@ -28,7 +28,7 @@ export const OnboardingTour: React.FC<OnboardingTourProps> = ({ onFinish }) => {
 
   const steps: TourStep[] = [
     {
-      title: 'ښه راغلاست – د فن بیان لارښود ته!',
+      title: 'ښه راغلاست – د مسلکي وينا راز په څه کې ده ته!',
       description: 'دا اپلیکیشن تاسو سره د عامه خبرو، ويناوالۍ هنر، او پر نفس د خورا غښتلي باور موندلو په لارو چارو کې وړیا، افلاین او هر اړخیزه علمي مرسته کوي.',
       icon: <Flame className="w-10 h-10 text-rose-500 animate-bounce" />,
       accent: 'from-rose-500 to-amber-400'

@@ -70,7 +70,7 @@ export const SplashView: React.FC<SplashViewProps> = ({ onFinish }) => {
             transition={{ delay: 0.2, duration: 0.6 }}
             className="text-2xl md:text-3xl font-black font-sans tracking-tight text-white bg-clip-text text-transparent bg-gradient-to-l from-white via-[#f4f4f5] to-zinc-400"
           >
-            د فن بيان لارښود
+            د مسلکي وينا راز په څه کې ده
           </motion.h1>
           <motion.p
             initial={{ y: 20, opacity: 0 }}
