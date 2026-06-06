@@ -127,9 +127,10 @@ export const BottomNav: React.FC<BottomNavProps> = ({
         </div>
 
         {/* Small desktop developer watermark credit */}
-        <div className="pr-4 border-r border-stone-200 dark:border-stone-800 sepia:border-amber-200 text-stone-400 dark:text-stone-600 text-[11px] font-medium leading-relaxed">
-          <p>پښتو علمي همکار</p>
-          <p className="text-[9px] mt-0.5">نسخه ۱.۰.۰</p>
+        <div className="pr-4 border-r border-stone-200 dark:border-stone-800 sepia:border-amber-200 text-stone-500 dark:text-stone-500 text-[10px] font-medium leading-relaxed space-y-1">
+          <p>جمع او ترتيب: <span className="font-bold text-amber-600 dark:text-amber-500">ډاکټر فريدون احرار</span></p>
+          <p>اپلیکیشن جوړونکی: <span className="font-bold text-rose-500">خبيب تکل</span></p>
+          <p className="text-[8px] mt-0.5 text-stone-450 dark:text-stone-600">نسخه ۱.۰.۰</p>
         </div>
       </div>
     </>

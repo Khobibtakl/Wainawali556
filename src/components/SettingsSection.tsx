@@ -299,7 +299,10 @@ export const SettingsSection: React.FC<SettingsSectionProps> = ({
           <span>د رښتینې هڅې او مېړانې سره جوړ شوی</span>
           <Heart className="w-3 h-3 text-rose-500 fill-rose-500" />
         </p>
-        <p className="text-[9px] text-stone-400 select-none">
+        <p className="text-[10px] text-stone-500 dark:text-stone-400 font-medium select-none">
+          جمع او ترتيب: <span className="font-extrabold text-amber-600 dark:text-amber-500">الحاج ډاکټر صاحب فريدون احرار</span>
+        </p>
+        <p className="text-[9px] text-stone-450 select-none">
           اپلیکیشن جوړونکی: <span className="font-extrabold text-rose-500">طالب العلم خبيب تکل</span> د پښتو ویناوالۍ مالتړی © ۲۰۲۶
         </p>
       </div>

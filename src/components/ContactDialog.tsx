@@ -98,13 +98,19 @@ export const ContactDialog: React.FC<ContactDialogProps> = ({ isOpen, onClose })
             </div>
 
             {/* Profile Intro Card */}
-            <div className="p-4 flex flex-col items-center text-center space-y-2 border-b border-stone-50 dark:border-zinc-850/60 pb-3">
-              <div className="h-14 w-14 rounded-full bg-rose-500/10 flex items-center justify-center text-rose-500 text-lg font-black tracking-wider">
-                خ
-              </div>
-              <div>
-                <h4 className="text-sm font-black text-stone-900 dark:text-white sepia:text-amber-950">طالب العلم خبيب تکل</h4>
-                <p className="text-[10px] text-stone-400 mt-0.5">پښتو هڅاند، ژباړونکی او د مباحثې د علومو پوهنپال</p>
+            <div className="p-4 flex flex-col items-center text-center space-y-3.5 border-b border-stone-50 dark:border-zinc-850/60 pb-4">
+              <div className="w-full flex justify-center items-center gap-6 flex-row-reverse">
+                <div className="text-center">
+                  <span className="text-[9px] text-amber-600 dark:text-amber-500 font-bold block">جمع او ترتیب کوونکی:</span>
+                  <h4 className="text-xs font-black text-stone-900 dark:text-white sepia:text-amber-950 mt-0.5">الحاج ډاکټر فريدون احرار</h4>
+                  <p className="text-[8px] text-stone-400 mt-0.5">د ښونځيو او علمي مجمع فعال مالتړی</p>
+                </div>
+                <div className="h-8 w-[1px] bg-stone-250 dark:bg-zinc-800" />
+                <div className="text-center">
+                  <span className="text-[9px] text-rose-500 font-bold block">اپلیکیشن جوړونکی:</span>
+                  <h4 className="text-xs font-black text-stone-900 dark:text-white sepia:text-amber-950 mt-0.5 font-sans">طالب العلم خبیب تکل</h4>
+                  <p className="text-[8px] text-stone-400 mt-0.5">پښتو هڅاند او تخنیکي پوهنپال</p>
+                </div>
               </div>
             </div>
 

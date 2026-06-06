@@ -114,11 +114,19 @@ export const SplashView: React.FC<SplashViewProps> = ({ onFinish }) => {
         </div>
 
         {/* Creator Name block */}
-        <div className="text-center pt-2 select-none">
-          <span className="text-[9px] text-zinc-650 block">اپلیکیشن جوړونکی:</span>
-          <span className="text-xs font-black text-rose-500 block tracking-wide font-sans mt-0.5">
-            طالب العلم خبيب تکل
-          </span>
+        <div className="text-center pt-2 select-none space-y-1.5">
+          <div>
+            <span className="text-[9px] text-zinc-500 block">جمع او ترتيب:</span>
+            <span className="text-xs font-black text-amber-500 block tracking-wide font-sans">
+              الحاج ډاکټر صاحب فريدون احرار
+            </span>
+          </div>
+          <div>
+            <span className="text-[9px] text-zinc-500 block">اپلیکیشن جوړونکی:</span>
+            <span className="text-[11px] font-bold text-rose-500 block tracking-wide font-sans">
+              طالب العلم خبيب تکل
+            </span>
+          </div>
         </div>
 
       </div>
